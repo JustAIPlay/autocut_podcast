@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(copy:*)",
+      "Bash(python:*)",
+      "Skill(auto_edit_video)",
+      "Bash(pip install:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

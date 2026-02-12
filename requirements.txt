@@ -1,0 +1,22 @@
+# 视频处理
+ffmpeg-python>=0.2.0      # FFmpeg Python 绑定
+
+# Qwen3 语音系列 (本地部署)
+qwen-asr>=0.1.0           # Qwen3-ASR + ForcedAligner
+qwen-tts>=0.1.0           # Qwen3-TTS
+
+# 音频处理
+soundfile>=0.12.0         # 音频文件读写
+librosa>=0.10.0           # 音频分析
+
+# AI 模型接口
+openai>=1.0.0             # OpenAI SDK（用于 Poe API 和 DeepSeek API）
+requests>=2.31.0          # 即梦 API 调用
+
+# 基础工具
+python-dotenv>=1.0.0      # 环境变量管理
+pathlib>=1.0.1            # 路径处理
+
+# [已废弃] 不再需要 Whisper
+# faster-whisper>=1.0.0
+# openai-whisper>=20231117

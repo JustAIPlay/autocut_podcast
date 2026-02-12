@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "6f58763756c1ce81",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c370613ddad534d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d8e0c556e950138",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "workflow_diagram.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "workflow_diagram"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6981bd8f0a6be69b",
+    "type": "split",
+    "children": [
+      {
+        "id": "94c9ec4dd0479835",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f79ee1be233d740",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "fad72ffa4c76bf57",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "98d5d8d20b2e72a3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5fec1a0c5030900e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f57b95a78cba6848",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "132b6bde08444496",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "workflow_diagram.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "workflow_diagram 的反向链接列表"
+            }
+          },
+          {
+            "id": "74d0467a57837633",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "workflow_diagram.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "workflow_diagram 的出链列表"
+            }
+          },
+          {
+            "id": "8a27f8074d627553",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "ecf1c39eda9e561e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "a12e4edf16b8a7a9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "workflow_diagram.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "workflow_diagram 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "6d8e0c556e950138",
+  "lastOpenFiles": [
+    "check_diff.py",
+    "PROMPTS/prompt_podcast_subtitle_format.md",
+    "raw_materials/copys/HFlyx000418_subtitle.txt",
+    "raw_materials/audios/HFlyx000418_podcast.wav",
+    "raw_materials/audios/HFlyx000418_podcast_cantonese.wav",
+    "raw_materials/audios/HFlyx000418_podcast_ca.wav",
+    "raw_materials/audios/HFlyx000418_podcast_1.wav",
+    "raw_materials/audios/HFlyx000418_podcast_bk.wav",
+    "raw_materials/audios/HFlyx000418_soulx_input_bak2.json",
+    "raw_materials/audios/HFlyx000418_soulx_input - 副本.json",
+    "docs/PARALANGUAGE_TAGS_GUIDE.md",
+    "raw_materials/audios/HFlyx000418_soulx_input_tagged.json",
+    "raw_materials/audios/HFlyx000418_soulx_input.json",
+    "docs/SOULX_PODCAST_INTEGRATION.md",
+    "PROMPTS/prompt_recreate.md"
+  ]
+}
