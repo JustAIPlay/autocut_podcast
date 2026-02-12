@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 这是一个 AI 驱动的**播客视频二创**工具。主要功能是基于对标播客视频进行文案二次创作，并自动生成新的播客视频。
 
-工作流程：提取音频 → Qwen3-ASR 转录 → Poe API 说话人识别+二创 → SoulX-Podcast 配音 → ForcedAligner 对齐 → 生成字幕 → DeepSeek 生图提示词 → 即梦 API 生图 → FFmpeg 合成视频。
+工作流程：提取音频 → Qwen3-ASR 转录 → 智谱 API 说话人识别+二创 → SoulX-Podcast 配音 → ForcedAligner 对齐 → 生成字幕 → DeepSeek 生图提示词 → 即梦 API 生图 → FFmpeg 合成视频。
 
 ## 环境准备
 
@@ -40,13 +40,13 @@ huggingface-cli download Soul-AILab/SoulX-Podcast-1.7B --local-dir pretrained_mo
 ### 环境变量 (.env)
 ```
 # 必需 API
-POE_API_KEY=your_poe_api_key_here        # 文案二创 (Gemini 2.5 Flash)
+ZHIPU_API_KEY=your_zhipu_api_key      # 文案二创 (智谱 GLM-4-Flash)
 JIMENG_SESSION_ID=your_jimeng_session_id # 即梦生图
 DEEPSEEK_API_KEY=your_deepseek_api_key   # 生图提示词
 
-# Poe API 配置
-POE_BASE_URL=https://api.poe.com/v1
-POE_BOT_NAME=Gemini-2.5-Flash
+# 智谱 API 配置
+ZHIPU_BASE_URL=https://open.bigmodel.cn/api/paas/v4
+ZHIPU_MODEL=glm-4-flash
 
 # SoulX-Podcast 配置
 SOULX_PODCAST_PATH=D:/AI/SoulX-Podcast
@@ -100,7 +100,7 @@ JIMENG_RESOLUTION=2k
 |------|------|------|
 | 2.1 | extract_audio.py | 提取音频 |
 | 2.2 | transcribe_qwen_asr.py | Qwen3-ASR 转录 |
-| 3 | recreate_podcast.py | Poe API 说话人识别+二创 |
+| 3 | recreate_podcast.py | 智谱 API 说话人识别+二创 |
 | 4 | generate_podcast_tts.py | SoulX-Podcast 配音 |
 | 5.1 | format_podcast_subtitles.py | 格式化字幕 |
 | 5.2 | forced_align.py | ForcedAligner 对齐 |
@@ -114,7 +114,7 @@ JIMENG_RESOLUTION=2k
 - **转录**: Qwen3-ASR (GPU)
 - **强制对齐**: Qwen3-ForcedAligner (GPU) - 支持长音频自动分段（官方限制≤5分钟，脚本自动切分）
 - **播客配音**: SoulX-Podcast (GPU)
-- **文案二创**: Poe API (Gemini 2.5 Flash)
+- **文案二创**: 智谱 API (GLM-4-Flash)
 - **生图提示词**: DeepSeek API
 - **生图**: 即梦 API (jimeng-4.0)
 - **合成**: FFmpeg

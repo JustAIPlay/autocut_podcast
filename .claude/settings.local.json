@@ -7,7 +7,8 @@
       "Bash(python:*)",
       "Skill(auto_edit_video)",
       "Bash(pip install:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git clone:*)"
     ]
   }
 }
